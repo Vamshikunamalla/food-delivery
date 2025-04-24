@@ -1,0 +1,64 @@
+.Container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://24.media.tumblr.com/d2780fd4d3e24bef0070f0a90537062b/tumblr_mpyzh7MK9J1rs8ziuo1_500.gif'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    
+  }
+  
+  .Card {
+    background-color: rgba(46, 42, 42, 0.7); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+  }
+  
+  .Card div {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .Card samp {
+    font-weight: bold;
+    color: yellow;
+  }
+  
+  .Actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: rgb(192, 192, 10); 
+    color: brown; 
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: yellow; 
+  }
+  
+  .RejectButton {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+  .RejectButton:hover {
+    background-color: #e53935; 
+  }

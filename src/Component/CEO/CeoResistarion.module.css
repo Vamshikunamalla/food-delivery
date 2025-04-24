@@ -1,0 +1,49 @@
+.cardContant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('https://24.media.tumblr.com/d2780fd4d3e24bef0070f0a90537062b/tumblr_mpyzh7MK9J1rs8ziuo1_500.gif'); /* Replace with your desired image/GIF URL */
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensure the background covers the entire area */
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed during scroll */
+  padding: 20px;
+}
+
+.cardContant h1 {
+  font-size: 24px;
+  color: yellow; /* Yellow heading text */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cardContant h2,
+.cardContant h3 {
+  font-size: 18px;
+  color: rgb(211, 192, 201); /* Light gray text */
+  margin: 10px 0;
+}
+
+.cardContant samp {
+  font-weight: bold;
+  color: white;
+}
+
+.cardContant button {
+  background-color: rgb(192, 192, 10); /* Yellow button background */
+  color: brown; /* Brown button text */
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cardContant button:hover {
+  background-color: yellow; /* Lighter yellow on hover */
+}

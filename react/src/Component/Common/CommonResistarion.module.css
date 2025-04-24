@@ -1,0 +1,75 @@
+.formbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://24.media.tumblr.com/d2780fd4d3e24bef0070f0a90537062b/tumblr_mpyzh7MK9J1rs8ziuo1_500.gif');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensure the background covers the entire area */
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed during scroll */
+}
+
+form {
+  background-color: rgba(46, 42, 42, 0.7); /* Semi-transparent dark gray background */
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow for better visibility */
+  width: 100%;
+  max-width: 400px;
+}
+
+form h1 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: yellow; /* Yellow heading text */
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: rgb(211, 192, 201); /* Light gray label text */
+}
+
+input[type='email'],
+input[type='password'],
+select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #303947; /* Dark gray border */
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent input background */
+  color: black; /* Black input text */
+}
+
+input[type='email']:focus,
+input[type='password']:focus,
+select:focus {
+  border-color: #2563eb; /* Blue border on focus */
+}
+
+button {
+  width: 100%;
+  background-color: rgb(192, 192, 10); /* Yellow button background */
+  color: brown; /* Brown button text */
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: yellow; /* Lighter yellow on hover */
+}
